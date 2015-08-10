@@ -5,7 +5,7 @@ printf "\033[1;32m${1}\033[0m\n"
 }
  
 PATH_CERTS='/tmp/certificados'
-PATH_MOZILLA='~/public_html/certificados_iceweasel'
+PATH_MOZILLA=~/public_html/certificados_iceweasel
 
 mkdir -p $PATH_MOZILLA/certificados/
 mkdir -p $PATH_MOZILLA/paquetes/
